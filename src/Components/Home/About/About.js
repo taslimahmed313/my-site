@@ -38,6 +38,18 @@ const About = () => {
               grow. If you have a good opportunity that matches my skills and
               experience then don't hesitate to contact me.
             </p>
+            <div>
+              <a
+                href="https://drive.google.com/file/d/1OB6MECjzqtaj5RVqGqXV-NZx4VcOl4oR/view? 
+               usp=sharing"
+                target="_blank"
+                className="outline outline-2 font-serif allsides-8 text-lg text-[#64ffda] 
+                px-6 py-3 lg:mt-8 inline-block rounded-sm outline-[#64FFDA]"
+                rel="noreferrer"
+              >
+               Conduct Me!
+              </a>
+            </div>
           </div>
           <div>
             <Skills></Skills>

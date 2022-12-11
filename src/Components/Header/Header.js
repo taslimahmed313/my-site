@@ -34,10 +34,10 @@ const Header = () => {
                   <a href="#4">Home</a>
                 </li>
                 <li>
-                  <a href="#4">Skills</a>
+                  <a href="#skills">Skills</a>
                 </li>
                 <li>
-                  <a href="#4">Projects</a>
+                  <a href="#projects">Projects</a>
                 </li>
                 <li>
                   <a href="#4">Conduct</a>
@@ -67,7 +67,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className="hover:text-[#64ffda]" href="#4">
+                <a className="hover:text-[#64ffda]" href="#projects">
                   Projects
                 </a>
               </li>
