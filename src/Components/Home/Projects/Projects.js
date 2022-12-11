@@ -1,5 +1,7 @@
 import React from 'react';
 import project1 from "../../../logo/project-1.png";
+import project2 from "../../../logo/project-2.png";
+import project3 from "../../../logo/project-3.png";
 
 const Projects = () => {
     return (
@@ -33,34 +35,72 @@ const Projects = () => {
               src={project1}
               alt=""
             />
-            <h2 className="text-xl">Benchmarks -</h2>
-            <p>Used product resale website</p>
+            <h2 className="text-xl text-center uppercase mt-2 font-serif font-medium">
+              Benchmarks
+            </h2>
+            <p className="text-justify mt-3">
+              Benchmarks is a Used product resealing website. I created
+              targeting the business industry which anyone can use to present
+              their business online.
+            </p>
+            <p
+              className="outline cursor-pointer w-full text-center outline-2 font-serif allsides-8 text-lg text 
+              text px-3 py-1 lg:mt-4 inline-block rounded-sm"
+            >
+              Case Study
+            </p>
           </div>
           <div
             className="px-3 py-3 mb-5 allsides-2  morphy text-white shadow-2xl"
-            data-aos="zoom-out-right"
+            data-aos="fade-down"
+            data-aos-easing="linear"
             data-aos-duration="2000"
           >
             <img
               className="h-[160px] border border-white rounded-xl w-full"
-              src={project1}
+              src={project2}
               alt=""
             />
-            <h2 className="text-xl">Benchmarks -</h2>
-            <p>Used product resale website</p>
+            <h2 className="text-xl text-center uppercase mt-2 font-serif font-medium">
+              Attorna
+            </h2>
+            <p className="text-justify mt-2">
+              Benchmarks is a Used product resealing website. I created
+              targeting the business industry which anyone can use to present
+              their business online.
+            </p>
+            <p
+              className="outline cursor-pointer w-full text-center outline-2 font-serif allsides-8 text-lg text 
+              text px-3 py-1 lg:mt-4 inline-block rounded-sm"
+            >
+              Case Study
+            </p>
           </div>
           <div
             className="px-3 py-3 mb-5 allsides-2  morphy text-white shadow-2xl"
-            data-aos="fade-up"
+            data-aos="fade-down"
+            data-aos-easing="linear"
             data-aos-duration="2000"
           >
             <img
               className="h-[160px] border border-white rounded-xl w-full"
-              src={project1}
+              src={project3}
               alt=""
             />
-            <h2 className="text-xl">Benchmarks -</h2>
-            <p>Used product resale website</p>
+            <h2 className="text-xl text-center uppercase mt-2 font-serif font-medium">
+              Bytecode Clods
+            </h2>
+            <p className="text-justify mt-3">
+              Benchmarks is a Used product resealing website. I created
+              targeting the business industry which anyone can use to present
+              their business online.
+            </p>
+            <p
+              className="outline cursor-pointer w-full text-center outline-2 font-serif allsides-8 text-lg text 
+              text px-3 py-1 lg:mt-4 inline-block rounded-sm"
+            >
+              Case Study
+            </p>
           </div>
         </div>
       </div>
