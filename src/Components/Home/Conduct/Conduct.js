@@ -29,24 +29,23 @@ const Conduct = () => {
   };
 
   return (
-    <div className="my-32 lg:px-16 px-8">
+    <div className="my-32 lg:px-16 px-12">
       <div data-aos="zoom-out" data-aos-duration="2000">
         <h1
-          className="lg:text-4xl text-center uppercase underline text-[#dfe3f1] 
+          className="lg:text-4xl text-2xl text-center uppercase underline text-[#dfe3f1] 
             font-semibold   font-mono underline-offset-8"
         >
           Get In Touch
         </h1>
-        <p className="mt-5 text-center text-lg font-semibold text-[#BFCBF2]">
+        <p className="mt-5 text-center text-lg lg:w-[550px] mx-auto font-semibold text-[#BFCBF2]">
           {" "}
           I’m looking for new opportunities, my Email is always open.
-          <br /> Feel free to Contact me by submitting the form below and I will{" "}
-          <br />
+           Feel free to Contact me by submitting the form below and I will
           get back to you as soon as possible.
         </p>
       </div>
       <div
-        className="morphy lg:w-[400px] w-full mx-auto mt-10 p-8"
+        className="morphy lg:w-[400px] w-full mx-auto mt-10 lg:p-8 p-4"
         data-aos="zoom-in"
         data-aos-duration="2000"
       >

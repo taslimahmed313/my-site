@@ -5,10 +5,10 @@ import project3 from "../../../logo/project-3.png";
 
 const Projects = () => {
     return (
-      <div id="projects" className="my-32 lg:px-16 px-8">
+      <div id="projects" className="my-32 lg:px-16 px-12">
         <div data-aos="zoom-out-up" data-aos-duration="2000">
           <h1
-            className="lg:text-4xl text-center uppercase underline text-[#dfe3f1] 
+            className="lg:text-4xl text-2xl text-center uppercase underline text-[#dfe3f1] 
             font-semibold   font-mono underline-offset-8"
           >
             Projects
@@ -19,7 +19,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="mt-24">
-          <h2 className="text-3xl font-semibold text-[#dfe3f1]">
+          <h2 className="lg:text-3xl text-2xl font-semibold text-[#dfe3f1]">
             Some Things I’ve Built
           </h2>
         </div>

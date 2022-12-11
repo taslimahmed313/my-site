@@ -3,22 +3,22 @@ import Skills from '../Skills/Skills';
 
 const About = () => {
     return (
-      <div className="my-32 lg:px-16 px-8">
+      <div className="my-32 lg:px-16 px-12">
         <div data-aos="zoom-in" data-aos-duration="2000">
           <h1
-            className="lg:text-4xl text-center underline text-[#dfe3f1] font-semibold   
+            className="lg:text-4xl text-2xl text-center underline text-[#dfe3f1] font-semibold   
            font-mono underline-offset-8"
           >
             ABOUT ME
           </h1>
-          <p className="text-[#BFCBF2] text-lg text-center mt-5">
+          <p className="text-[#BFCBF2] text-lg text-center mt-5 lg:w-[550px] mx-auto">
             Here you will find more information about me, what I do, and my
-            current skills mostly in terms <br /> of programming and technology.
+            current skills mostly in terms  of programming and technology.
           </p>
         </div>
         <div className="mt-24 grid lg:grid-cols-2 grid-cols-1">
           <div data-aos="zoom-in" data-aos-duration="2000">
-            <h3 className="text-3xl font-semibold text-[#dfe3f1]">
+            <h3 className="lg:text-3xl text-2xl font-semibold text-[#dfe3f1]">
               Get to know me!
             </h3>
             <p className="mt-5 text-[#BFCBF2] text-lg text-justify">
@@ -43,7 +43,7 @@ const About = () => {
                 <a
                   href="#conduct"
                   className="outline outline-2 font-serif allsides-8 text-lg text-[#64ffda] 
-                px-6 py-3 lg:mt-8 inline-block rounded-sm outline-[#64FFDA]"
+                px-6 py-3 my-8 inline-block rounded-sm outline-[#64FFDA]"
                   rel="noreferrer"
                 >
                   Conduct Me!

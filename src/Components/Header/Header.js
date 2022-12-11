@@ -12,7 +12,7 @@ const Header = () => {
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="h-5 w-5 text-[#64ffda]"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -43,13 +43,24 @@ const Header = () => {
                   <a href="#conduct">Conduct</a>
                 </li>
                 <div className="navbar-end">
-                  <a href="k">Get started</a>
+                  <a
+                    href="https://drive.google.com/file/d/1OB6MECjzqtaj5RVqGqXV- 
+                     NZx4VcOl4oR/view?usp=sharing"
+                    target="_blank"
+                    className="outline allsides-8 outline-2 px-4 flex items-center py-2 
+                    rounded-sm outline-[#64FFDA] text-[#64ffda]"
+                    rel="noreferrer"
+                  >
+                    <FaEnvelopeOpenText className="mr-3"></FaEnvelopeOpenText>
+                    Resume
+                  </a>
                 </div>
               </ul>
             </div>
             <a
               href="#home"
-              className="normal-case text-xl font-serif outline outline-2 px-4 py-3 rounded-lg outline-[#64FFDA]  allsides-8 text-[#64ffda]"
+              className="normal-case text-xl font-serif outline outline-2 px-4 py-3 rounded-lg 
+               outline-[#64FFDA]  allsides-8 text-[#64ffda]"
             >
               <img className="w-5" src={logo} alt="" />
             </a>
