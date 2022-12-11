@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import "./SocialIcon.css";
 
 const SocialIcon = () => {
     return (

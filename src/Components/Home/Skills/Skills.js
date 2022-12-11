@@ -3,7 +3,7 @@ import "./Skills.css";
 
 const Skills = () => {
     return (
-      <div id="skills">
+      <div data-aos="zoom-in" data-aos-duration="2000" id="skills">
         <h1 className="text-3xl lg:mt-0 mt-5 font-semibold font-mono uppercase text-[#dfe3f1] lg:ml-8">
           My Top Skills
         </h1>

@@ -40,7 +40,7 @@ const Header = () => {
                   <a href="#projects">Projects</a>
                 </li>
                 <li>
-                  <a href="#4">Conduct</a>
+                  <a href="#conduct">Conduct</a>
                 </li>
                 <div className="navbar-end">
                   <a href="k">Get started</a>
@@ -72,13 +72,17 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className="hover:text-[#64ffda]" href="#4">
+                <a className="hover:text-[#64ffda]" href="#conduct">
                   Conduct
                 </a>
               </li>
             </ul>
           </div>
-          <div className="navbar-end">
+          <div
+            data-aos="zoom-out-up"
+            data-aos-duration="2000"
+            className="navbar-end"
+          >
             <a
               href="https://drive.google.com/file/d/1OB6MECjzqtaj5RVqGqXV-NZx4VcOl4oR/view? 
                usp=sharing"
