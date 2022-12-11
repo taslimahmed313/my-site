@@ -1,0 +1,34 @@
+[
+  {
+    "id": "01",
+    "name": "JavaScript(ES6+)"
+  },
+  {
+    "id": "02",
+    "name": "React JS"
+  },
+  {
+    "id": "03",
+    "name": "MongoDB"
+  },
+  {
+    "id": "04",
+    "name": "HTML5"
+  },
+  {
+    "id": "05",
+    "name": "Vanilla CSS"
+  },
+  {
+    "id": "06",
+    "name": "Tailwind CSS"
+  },
+  {
+    "id": "07",
+    "name": "Bootstrap5"
+  },
+  {
+    "id": "08",
+    "name": "Node Js"
+  }
+]
