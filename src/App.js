@@ -2,9 +2,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import { Toaster } from "react-hot-toast";
+import { RouterProvider } from "react-router-dom";
 import './App.css';
-import Header from './Components/Header/Header';
-import Home from './Components/Home/Home/Home';
+import { router } from "./Router/Router";
 
 function App() {
   useEffect(()=>{
@@ -13,9 +13,8 @@ function App() {
   },[])
   return (
     <div className="max-w-5xl border mx-auto lg:px-8 px-4 border-teal-400">
-      <Header></Header>
-      <Home></Home>
       <Toaster />
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }

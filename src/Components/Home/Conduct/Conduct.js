@@ -29,7 +29,7 @@ const Conduct = () => {
   };
 
   return (
-    <div className="my-32 lg:px-16 px-12">
+    <div className="my-32 lg:px-16 px-12" id="conduct">
       <div data-aos="zoom-out" data-aos-duration="2000">
         <h1
           className="lg:text-4xl text-2xl text-center uppercase underline text-[#dfe3f1] 

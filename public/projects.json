@@ -1,0 +1,20 @@
+[
+  {
+    "projectName": "benchmarks",
+    "img": "./images/project-1.png",
+    "description": "Benchmarks is a Used product resealing website. I created targeting the business industry which anyone can use to present their business online.",
+    "id": "01"
+  },
+  {
+    "projectName": "benchmarks",
+    "img": "./images/project-2.png",
+    "description": "Benchmarks is a Used product resealing website. I created targeting the business industry which anyone can use to present their business online.",
+    "id": "02"
+  },
+  {
+    "projectName": "benchmarks",
+    "img": "./images/project-3.png",
+    "description": "Benchmarks is a Used product resealing website. I created targeting the business industry which anyone can use to present their business online.",
+    "id": "03"
+  }
+]

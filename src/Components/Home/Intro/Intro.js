@@ -15,8 +15,8 @@ const Intro = () => {
           </h1>
           <p className="text-[#becaf3] lg:w-[550px] text-justify lg:mt-5 text-lg">
             I'm a software engineer specializing in building (and occasionally
-            designing) exceptional digital experiences. Currently, I'm focused on 
-            building accessible, human-centered products at Upstatement.
+            designing) exceptional digital experiences. Currently, I'm focused
+            on building accessible, human-centered products at Upstatement.
           </p>
         </div>
         <div data-aos="zoom-out-up" data-aos-duration="2000">
@@ -24,7 +24,7 @@ const Intro = () => {
             href="https://drive.google.com/file/d/1OB6MECjzqtaj5RVqGqXV-NZx4VcOl4oR/view? 
                usp=sharing"
             target="_blank"
-            className="outline outline-2 font-serif allsides-8 text-lg text-[#64ffda] px-8 py-4 
+            className="outline outline-2 hover:scale-105 duration-1000 font-serif allsides-8 text-lg text-[#64ffda] px-8 py-4 
            lg:mt-12 mt-8 inline-block rounded-sm outline-[#64FFDA]"
             rel="noreferrer"
           >

@@ -24,35 +24,41 @@ const Skills = () => {
           ))}
         </div> */}
         <div className=" mt-5 lg:ml-5 font-serif">
-          <p className=" px-3 py-3 lg:ml-5 ml-3 mb-5 inline-block allsides-2  morphy text-white">
+          <p className=" px-3 py-3 hover:scale-110 duration-[700ms] lg:ml-5 ml-3 mb-5 inline-block allsides-2  morphy text-white">
             HTML5
           </p>
-          <p className="px-3 py-3 mb-5 inline-block ml-5 allsides-2  morphy text-white">
+          <p className="px-3 hover:scale-110 duration-[700ms] py-3 mb-5 inline-block ml-5 allsides-2  morphy text-white">
             Vanilla CSS
           </p>
-          <p className="px-3 py-3 mb-5 inline-block lg:ml-5 ml-3 allsides-2  morphy text-white">
+          <p className="px-3 hover:scale-110 duration-[700ms] py-3 mb-5 inline-block lg:ml-5 ml-3 allsides-2  morphy text-white">
             JavaScript
           </p>
-          <p className="px-3 py-3 mb-5 inline-block ml-5  morphy allsides-2 text-white">
+          <p className="px-3 py-3 hover:scale-110 duration-[700ms] mb-5 inline-block ml-5  morphy allsides-2 text-white">
             React JS
           </p>
-          <p className="px-3 py-3 mb-5 inline-block lg:ml-5 ml-3 allsides-2 morphy text-white">
+          <p className="px-3 py-3 hover:scale-110 duration-[700ms] mb-5 inline-block lg:ml-5 ml-3 allsides-2 morphy text-white">
             MongoDB
           </p>
-          <p className="px-3 py-3 mb-5 inline-block ml-5 allsides-2 morphy text-white">
+          <p className="px-3 py-3 hover:scale-110 duration-[700ms] mb-5 inline-block ml-5 allsides-2 morphy text-white">
             Tailwind CSS
           </p>
-          <p className="px-3 py-3 mb-5 inline-block lg:ml-5 ml-3 allsides-2 morphy text-white">
+          <p className="px-3 py-3 hover:scale-110 duration-[700ms] mb-5 inline-block lg:ml-5 ml-3 allsides-2 morphy text-white">
             Bootstrap
           </p>
-          <p className="px-3 py-3 mb-5 inline-block ml-5 allsides-2 morphy text-white">
+          <p className="px-3 py-3 hover:scale-110 duration-[700ms] mb-5 inline-block ml-5 allsides-2 morphy text-white">
             Node JS
           </p>
-          <p className="px-3 py-3 mb-5 inline-block ml-5 allsides-2 morphy text-white">
+          <p className="px-3 py-3 hover:scale-110 duration-[700ms] mb-5 inline-block ml-5 allsides-2 morphy text-white">
             Git
           </p>
-          <p className="px-3 py-3 mb-5 inline-block lg:ml-5 ml-3 allsides-2 morphy text-white">
+          <p className="px-3 py-3 hover:scale-110 duration-[700ms] mb-5 inline-block lg:ml-5 ml-3 allsides-2 morphy text-white">
             GitHub
+          </p>
+          <p className="px-3 py-3 hover:scale-110 duration-[700ms] mb-5 inline-block lg:ml-5 ml-3 allsides-2 morphy text-white">
+            Firebase
+          </p>
+          <p className="px-3 py-3 hover:scale-110 duration-[700ms] mb-5 inline-block lg:ml-5 ml-3 allsides-2 morphy text-white">
+            Figma
           </p>
         </div>
       </div>

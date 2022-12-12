@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaEnvelopeOpenText } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import logo from "../../logo/letter-t- (1).png";
 import "./Header.css";
 
 const Header = () => {
     return (
-      <div>
+      <div className="sticky top-0 z-50">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
@@ -34,7 +35,7 @@ const Header = () => {
                   <a href="#4">Home</a>
                 </li>
                 <li>
-                  <a href="#skills">Skills</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
                   <a href="#projects">Projects</a>
@@ -68,13 +69,13 @@ const Header = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 text-[#bfcbf2]">
               <li>
-                <a className="hover:text-[#64ffda]" href="#intro">
+                <Link className="hover:text-[#64ffda]" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="hover:text-[#64ffda]" href="#skills">
-                  Skills
+                <a className="hover:text-[#64ffda]" href="#about">
+                  About
                 </a>
               </li>
               <li>
