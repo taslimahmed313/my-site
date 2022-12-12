@@ -88,6 +88,14 @@ const Header = () => {
                   Conduct
                 </a>
               </li>
+              <li>
+                <Link
+                  to="/blog"
+                  className="hover:text-[#64ffda]"
+                >
+                  Conduct
+                </Link>
+              </li>
             </ul>
           </div>
           <div
