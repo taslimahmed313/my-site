@@ -25,7 +25,7 @@ const Details = () => {
             </button>
           </div>
         </div>
-        <div className="my-12 flex grid lg:grid-cols-3 grid-cols-1 gap-6">
+        <div className="my-12  grid lg:grid-cols-3 grid-cols-1 gap-6">
           {project.img.map((im, i) => (
             <div
               className="rounded-xl border-4 p-2 hover:scale-105 duration-700 

@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { IoBook } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+
+
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(()=>{
@@ -31,7 +34,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="px-3 py-3 mb-5 allsides-2  morphy
+              className="px-3 py-3 mb-5   morphy
                text-white shadow-2xl"
               data-aos="fade-down"
               data-aos-easing="linear"
@@ -46,6 +49,29 @@ const Projects = () => {
               <h2 className="text-xl text-center uppercase mt-2 font-serif font-medium">
                 {project.projectName}
               </h2>
+              <div className="flex justify-between mt-3">
+                <a
+                  className="flex items-center border border-[#64FFDA] rounded-xl px-2 py-1 text-xs hover:scale-110 duration-500"
+                  href="k"
+                >
+                  <FiExternalLink></FiExternalLink>{" "}
+                  <span className="ml-1 font-serif">Live</span>
+                </a>
+                <a
+                  className="flex items-center border border-[#64FFDA] rounded-xl px-2 py-1 text-xs hover:scale-110 duration-500"
+                  href="k"
+                >
+                  <FiGithub></FiGithub>{" "}
+                  <span className="ml-1 font-serif">Client</span>
+                </a>
+                <a
+                  className="flex items-center border border-[#64FFDA] rounded-xl px-2 py-1 text-xs hover:scale-110 duration-500"
+                  href="k"
+                >
+                  <FiGithub></FiGithub>{" "}
+                  <span className="ml-1 font-serif">Server</span>
+                </a>
+              </div>
               <p className="text-justify mt-3">{project.description}</p>
               <Link
                 to={`/details/${project.id}`}
