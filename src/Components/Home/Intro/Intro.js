@@ -21,9 +21,7 @@ const Intro = () => {
         </div>
         <div data-aos="zoom-out-up" data-aos-duration="2000">
           <a
-            href="https://drive.google.com/file/d/1OB6MECjzqtaj5RVqGqXV-NZx4VcOl4oR/view? 
-               usp=sharing"
-            target="_blank"
+            href="#projects"
             className="outline outline-2 hover:scale-105 duration-1000 font-serif allsides-8 text-lg text-[#64ffda] px-8 py-4 
            lg:mt-12 mt-8 inline-block rounded-sm outline-[#64FFDA]"
             rel="noreferrer"

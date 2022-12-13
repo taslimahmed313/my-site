@@ -10,3 +10,8 @@
 .allsides-8:hover {
   background-position: 100% 100%, 0 0, 0 0, 100% 100%;
 }
+
+div a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+}

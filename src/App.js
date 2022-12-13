@@ -12,7 +12,7 @@ function App() {
     AOS.refresh();
   },[])
   return (
-    <div className="max-w-5xl border mx-auto lg:px-8 px-4 border-teal-400">
+    <div className="max-w-5xl bg-[#0A192F] mx-auto lg:px-8 px-4">
       <Toaster />
       <RouterProvider router={router}></RouterProvider>
     </div>

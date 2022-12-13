@@ -3,7 +3,7 @@ import Skills from '../Skills/Skills';
 
 const About = () => {
     return (
-      <div className="my-32 lg:px-16 px-12" id='about'>
+      <div className="my-32 lg:px-16 px-12" id="about">
         <div data-aos="zoom-in" data-aos-duration="2000">
           <h1
             className="lg:text-4xl text-2xl text-center underline text-[#dfe3f1] font-semibold   
@@ -13,7 +13,7 @@ const About = () => {
           </h1>
           <p className="text-[#BFCBF2] text-lg text-center mt-5 lg:w-[550px] mx-auto">
             Here you will find more information about me, what I do, and my
-            current skills mostly in terms  of programming and technology.
+            current skills mostly in terms of programming and technology.
           </p>
         </div>
         <div className="mt-24 grid lg:grid-cols-2 grid-cols-1">
@@ -42,7 +42,8 @@ const About = () => {
               <div data-aos="zoom-out-up" data-aos-duration="2000">
                 <a
                   href="#conduct"
-                  className="outline outline-2 hover:translate-y-1 font-serif allsides-8 text-lg text-[#64ffda] 
+                  className="outline outline-2 hover:-translate-y-1 duration-[800ms] 
+                  font-serif allsides-8 text-lg text-[#64ffda] 
                 px-6 py-3 my-8 inline-block rounded-sm outline-[#64FFDA]"
                   rel="noreferrer"
                 >

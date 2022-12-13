@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { IoBook } from "react-icons/io5";
 import { Link } from 'react-router-dom';
-
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   useEffect(()=>{
@@ -31,14 +31,15 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="px-3 py-3 mb-5 allsides-2 morphy  hover:scale-105 duration-700
+              className="px-3 py-3 mb-5 allsides-2  morphy
                text-white shadow-2xl"
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="2500"
             >
               <img
-                className="h-[160px] hover:scale-105 duration-700 border border-white rounded-xl w-full"
+                className="h-[160px] hover:scale-105 duration-700 border border-white 
+                rounded-xl w-full"
                 src={project.img}
                 alt=""
               />
@@ -48,9 +49,14 @@ const Projects = () => {
               <p className="text-justify mt-3">{project.description}</p>
               <Link
                 to={`/details/${project.id}`}
-                className="outline cursor-pointer w-full text-center outline-2 font-serif 
-               allsides-8 text-lg text text px-3 py-1 lg:mt-4 inline-block rounded-sm"
+                className="outline outline-[#64FFDA] text-[#64ffda] flex items-center  
+                 justify-center cursor-pointer w-full hover:-translate-y-1  hover:scale-105  
+                  text-center outline-2 font-serif  
+                  allsides-8  duration-[1000ms] text-lg text 
+                  text px-3 py-1 lg:mt-4  rounded-sm"
               >
+                {" "}
+                <IoBook className="mr-4"></IoBook>
                 Case Study
               </Link>
             </div>

@@ -7,7 +7,9 @@ import "./Header.css";
 const Header = () => {
     return (
       <div className="sticky top-0 z-50">
-        <div className="navbar bg-base-100">
+        <div
+          className="navbar morphy"
+        >
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -59,9 +61,9 @@ const Header = () => {
               </ul>
             </div>
             <a
-              href="#home"
+              href="#intro"
               className="normal-case text-xl font-serif outline outline-2 px-4 py-3 rounded-lg 
-               outline-[#64FFDA]  allsides-8 text-[#64ffda]"
+                 allsides-8 outline-[#64FFDA] text-[#64ffda]"
             >
               <img className="w-5" src={logo} alt="" />
             </a>
@@ -89,25 +91,19 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <Link
-                  to="/blog"
-                  className="hover:text-[#64ffda]"
-                >
-                  Conduct
+                <Link to="/blog" className="hover:text-[#64ffda]">
+                  Blog
                 </Link>
               </li>
             </ul>
           </div>
-          <div
-            data-aos="zoom-out-up"
-            data-aos-duration="2000"
-            className="navbar-end"
-          >
+          <div className="navbar-end">
             <a
               href="https://drive.google.com/file/d/1OB6MECjzqtaj5RVqGqXV-NZx4VcOl4oR/view? 
                usp=sharing"
               target="_blank"
-              className="outline allsides-8 outline-2 px-4 flex items-center py-2 rounded-sm 
+              className="outline allsides-8 outline-2 px-4 hover:-translate-y-1 duration- 
+               [800ms] flex items-center py-2 rounded-sm 
                outline-[#64FFDA] text-[#64ffda]"
               rel="noreferrer"
             >
