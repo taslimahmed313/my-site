@@ -1,15 +1,14 @@
 import React from 'react';
 import { FaEnvelopeOpenText } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from "../../logo/letter-t- (1).png";
+import CV from "../../assets/Junior Web Developer.pdf";
+import logo from "../../logo/text.png";
 import "./Header.css";
 
 const Header = () => {
     return (
       <div className="sticky top-0 z-50">
-        <div
-          className="navbar morphy"
-        >
+        <div className="navbar morphy">
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,9 +46,8 @@ const Header = () => {
                 </li>
                 <div className="navbar-end">
                   <a
-                    href="https://drive.google.com/file/d/1OB6MECjzqtaj5RVqGqXV- 
-                     NZx4VcOl4oR/view?usp=sharing"
-                    target="_blank"
+                    href={CV}
+                    download
                     className="outline allsides-8 outline-2 px-4 flex items-center py-2 
                     rounded-sm outline-[#64FFDA] text-[#64ffda]"
                     rel="noreferrer"
@@ -99,9 +97,8 @@ const Header = () => {
           </div>
           <div className="navbar-end">
             <a
-              href="https://drive.google.com/file/d/1OB6MECjzqtaj5RVqGqXV-NZx4VcOl4oR/view? 
-               usp=sharing"
-              target="_blank"
+              href={CV}
+              download
               className="outline allsides-8 outline-2 px-4 hover:-translate-y-1 duration- 
                [800ms] flex items-center py-2 rounded-sm 
                outline-[#64FFDA] text-[#64ffda]"
